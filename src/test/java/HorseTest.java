@@ -168,6 +168,12 @@ class HorseTest {
     }
 
     @Test
+    void getDistanceShouldReturnNullWhenHorseCreatedWith2Paramters(){
+        horse = new Horse("name", 10);
+        assertEquals(0,horse.getDistance());
+    }
+
+    @Test
     void moveShouldCallGetRandomDouble() {
         //given
          //horseMockedStatic = Mockito.mockStatic(Horse.class);
