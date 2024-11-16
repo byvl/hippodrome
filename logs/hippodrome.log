@@ -1,0 +1,10 @@
+2024-11-16 09:46:01 [main] INFO  Main - ====================NEW RACE============================
+2024-11-16 09:46:01 [main] DEBUG Horse - Create Horse, name [Bucephalus], speed [2.4]
+2024-11-16 09:46:01 [main] DEBUG Horse - Create Horse, name [Ace of Spades], speed [2.5]
+2024-11-16 09:46:01 [main] DEBUG Horse - Create Horse, name [Zephyr], speed [2.6]
+2024-11-16 09:46:01 [main] DEBUG Horse - Create Horse, name [Blaze], speed [2.7]
+2024-11-16 09:46:01 [main] DEBUG Horse - Create Horse, name [Lobster], speed [2.8]
+2024-11-16 09:46:01 [main] DEBUG Horse - Create Horse, name [Pegasus], speed [2.9]
+2024-11-16 09:46:01 [main] DEBUG Horse - Create Horse, name [Cherry], speed [3.0]
+2024-11-16 09:46:01 [main] DEBUG Hippodrome - Create Hippodrome with [7] horses
+2024-11-16 09:46:03 [main] INFO  Main - Race has end. Winner horse: Pegasus
