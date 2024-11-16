@@ -1,6 +1,11 @@
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import static java.util.Objects.isNull;
 
 public class Horse {
+
+    private static final Logger LOGGER = LogManager.getLogger(Horse.class);
 
     private final String name;
     private final double speed;
@@ -8,20 +13,26 @@ public class Horse {
 
     public Horse(String name, double speed, double distance) {
         if (isNull(name)) {
+            LOGGER.error("Name is null");
             throw new IllegalArgumentException("Name cannot be null.");
         } else if (name.isBlank()) {
+            LOGGER.error("Name is blank");
             throw new IllegalArgumentException("Name cannot be blank.");
         }
         if (speed < 0) {
+            LOGGER.error("Speed for [{}] is negative", name);
             throw new IllegalArgumentException("Speed cannot be negative.");
         }
         if (distance < 0) {
+            LOGGER.error("Distance for [{}] is negative", name);
             throw new IllegalArgumentException("Distance cannot be negative.");
         }
 
         this.name = name;
         this.speed = speed;
         this.distance = distance;
+
+        LOGGER.debug("Create Horse, name [{}], speed [{}]", name, speed);
     }
 
     public Horse(String name, double speed) {
