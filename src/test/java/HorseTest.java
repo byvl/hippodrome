@@ -168,7 +168,7 @@ class HorseTest {
     }
 
     @Test
-    void getDistanceShouldReturnNullWhenHorseCreatedWith2Paramters(){
+    void getDistanceShouldReturnNullWhenHorseCreatedWith2Parameters(){
         horse = new Horse("name", 10);
         assertEquals(0,horse.getDistance());
     }
