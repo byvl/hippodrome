@@ -8,3 +8,5 @@
 2024-11-16 09:46:01 [main] DEBUG Horse - Create Horse, name [Cherry], speed [3.0]
 2024-11-16 09:46:01 [main] DEBUG Hippodrome - Create Hippodrome with [7] horses
 2024-11-16 09:46:03 [main] INFO  Main - Race has end. Winner horse: Pegasus
+2024-11-16 10:20:58 [main] DEBUG Horse - Create Horse, name [Mary], speed [20.0]
+2024-11-16 10:20:58 [main] DEBUG Horse - Create Horse, name [name], speed [10.0]
